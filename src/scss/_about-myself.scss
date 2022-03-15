@@ -1,0 +1,83 @@
+@import "_variables";
+
+.about-myself{
+    width:100%;
+    border:none;
+    box-shadow:0 0 5px rgba(0,0,0,.2);
+    padding:40px 10px 40px;
+    color: #65513f;
+    background-color : #f8f0d7;
+    background-image :none;
+    margin-bottom:40px;
+
+    &__title{
+        @include title;
+    }
+
+    & p{
+        margin-bottom:10px;
+    }
+
+    &__wrap{
+        margin:0 auto;
+        display:flex;
+        width:70%;
+        @include mq(){
+            width:100%;
+            display:block;
+            padding:30px;
+        }
+    }
+
+    &__item{
+        width:100%;
+        margin:0 auto 30px;
+    }
+
+    &__img1{
+        position:absolute;
+        top:40px;
+        right:130px;
+        @include mq(){
+            position:static;
+            display:none;
+        }
+    }
+
+    &__illust{
+        width:20%;
+        @include mq(){
+            display:none;
+        }
+    }
+
+    &__img2{
+        position:absolute;
+        right:0;
+        @include mq(){
+            position:static;
+            display:none;
+        }
+    }
+
+    &__img3{
+        @include mq(){
+            position:static;
+            display:none;
+        }
+    }
+    &__img4{
+        width:100px;
+         @include mq(){
+            position:static;
+            display:none;
+        }
+    }
+
+    &__other{
+        width:80%;
+        @include mq(){
+            width:100%;
+        }
+    }
+}

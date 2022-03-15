@@ -1,0 +1,36 @@
+//fonts
+$xl:30px;
+$l:25px;
+$m:20px;
+$s:16px;
+$xs:12px;
+$xxs:10px;
+
+//colors
+$accent-color:#ff5f57;
+$bg-color:rgba(136, 226, 242,.7);
+
+//Responsive
+$layout-width-inner:1180px;
+$breakpoints:(
+    'sp':'screen and (max-width:599px)',
+    'tablet':'screen and (max-width:#{$layout-width-inner -  1px})',
+    'pc':'screen and (min-width: #{$layout-width-inner})'
+)!default;
+
+//media
+@mixin mq($breakpoint:sp){
+    @media #{map-get($breakpoints,$breakpoint)}{
+        @content;
+    }
+}
+
+//mixin title
+@mixin title{
+    text-align:center;
+    margin:50px auto;
+
+    @include mq(){
+        margin:30px auto 30px;
+    }
+}

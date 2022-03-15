@@ -1,0 +1,10 @@
+@import "_variables";
+
+.main{
+    width:100%;
+    padding:220px 0 0 0;
+    overflow:hidden;
+     @include mq(){
+            padding:150px 0 0 0;
+        }
+}
