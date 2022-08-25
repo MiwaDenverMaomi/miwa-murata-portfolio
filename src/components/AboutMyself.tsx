@@ -10,8 +10,20 @@ class AboutMyself extends React.Component {
                 <h2 className="about-myself__title">ABOUT MYSELF</h2>
                 <div className="about-myself__wrap">
                     <div className="about-myself__other">
-                        <p>I started out getting my BA in Russian back in 2002 Sophia University in Japan. After college, I worked as a toy planner/dirrector in charge of the planning and development of popular anime dolls (<a href="https://en.wikipedia.org/wiki/Pretty_Cure">"Pretty Cure"</a>).I then worked as an information design director in Shanghai, China for Yamagata Inc where I managed and created the content of operational manuals for home electronics in several different languages. I wrote Japanese/English manuals according to the specifications, pictures, 2D/3D data supplied from the clients, checking if the updated manual does not have wrong instructions and controlled the entire schedule for manual making, including DTP/translations as a director. In my spare time, I draw illustrations with illustrator/ibis paint.</p>
-                        <p>Most recently, I started programming. The reason that I started was I wanted to make a website to showcase my portfolio. In this time, I learned php, Javascript, Vue.js and React,etc. In addition, I started a <a href="https://zazacat.us" target="_blank">blog</a>to learn about affiliate marketing.</p>
+                        <p>In 2002 I graduated from Sophia University, Tokyo Japan, with a Bachelor of Arts degree in Russian.</p>
+                        <p>Following graduation I worked for WiZ Co., LTD in Tokyo as a toy planner and director. As a director I
+                        was in charge of the planning and development of popular anime dolls(<a href="https://en.wikipedia.org/wiki/Pretty_Cure">"Pretty Cure"</a>) for the Pretty Cure franchise,
+                        popular in Japan.</p><p>Following this position I worked as an information design director for Yamagata, Inc.,
+                        in Shanghai, China. Yamagata, Inc. is a Japanese company that provides information design expertise to
+                        companies world-wide. At this position I oversaw the production schedule for a product’s operational
+                        manuals, in English and Japanese, including gathering and analyzing a product’s specifications, images,
+                        and 2D/3D data as supplied by the client, developing content, and verifying the accuracy of the manuals’
+                        content prior to printing.</p>
+                        <p>
+                        Following my position at Yamagata, Inc. and desiring to expand my technical skills I began creating
+                        illustrations using Illustrator/Ibis Paint and, most recently, have begun programming with the goal of
+                        creating a website to showcase my portfolio. To accomplish this I have learned php, Javascript,and React.etc</p>
+                        <p>I started a <a href="https://zazacat.us" target="_blank">blog </a>to learn about affiliate marketing.</p>
                     </div>
                     <div className="about-myself__illust">
                         <img src={`${process.env.PUBLIC_URL}img/cat2.png`} alt="cat_image_2" className="about-myself__img2" />

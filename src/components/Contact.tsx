@@ -155,7 +155,7 @@ class Contact extends React.Component {
                 headers: { 'Content-Type': 'application/json' }
             }).then(res => res.json())
                 .then(data => {
-
+                    console.log(data);
                     data.success ? this.setState({
                         resultMessage: "Thank you for your inquiry!We will reply in a few days.",
                         resultImage: `${process.env.PUBLIC_URL}img/email_sent.png`
