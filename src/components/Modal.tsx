@@ -102,7 +102,7 @@ class Modal extends React.Component<PropsType> {
                     <table className="modal__table">
                         <tbody>
                             <tr><th className="modal__th">Name</th><td className="modal__td"><a href={modal.info.url} target="_blank">{modal.info.name}</a></td></tr>
-                            <tr><th className="modal__th">Language/Tool</th><td className="modal__td">{modal.info.language_tools}</td></tr>
+                            <tr><th className="modal__th">Language/Library</th><td className="modal__td">{modal.info.language_tools}</td></tr>
                             {modal.info.desc !== '' ? < tr ><th className="modal__th">Description</th><td className="modal__td">{modal.info.desc}</td></tr> : ''}
                         </tbody>
                     </table>

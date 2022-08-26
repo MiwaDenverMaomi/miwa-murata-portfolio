@@ -31,8 +31,8 @@ export function validEmail(val: string) {
 }
 
 export function debug(str: any) {
-    const debug_mode = false;
-    if (debug_mode) {
+    const debug_mode= false;
+    if (debug_mode!==false) {
         return console.log(str);
     }
 
