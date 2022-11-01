@@ -8,7 +8,7 @@ class History extends React.Component {
             <>
                 <section className="history" id="history">
                     <div className="history__lace-up"></div>
-                    <h2 className="history__title">MIWA MURATA</h2>
+                    <h2 className="history__title">M</h2>
                     <div className="history__wrap">
                         <img src={`${process.env.PUBLIC_URL}img/self_img.png`} alt="self_image" className="history__selfimg" />
                         {/* <ul className="note__list">
